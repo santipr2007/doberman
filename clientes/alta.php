@@ -13,18 +13,18 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $nombre = $_POST['nombre_vacuna'];
-    $descripcion = $_POST['descripcion_vacuna'];
+    $nombre = $_POST['nombre_cliente'];
+    $correo = $_POST ['correo'];
+    $telefono = $_POST ['telefono'];
 
-    $sql = "INSERT INTO vacunas (nombre, descripcion) VALUES ('$nombre', '$descripcion')";
+    $sql = "INSERT INTO cliente (nombre, correo, telefono) VALUES ('$nombre', '$correo', '$telefono')";
 
     if($conn->query($sql) === TRUE){
-        header("Location: /vacunas/registro_vacunas");
-        exit();
+        echo("Location: /clientes");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
     $conn->close();
-    
+
 ?>
