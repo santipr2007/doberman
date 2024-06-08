@@ -1,14 +1,15 @@
 <?php 
     $servername = "localhost";
-    $username = "user";
-    $password = "System32";
-    $dbname = "doberman";
-    $port = 3307;
+    $username = "admin";
+    $password = "123456789";
+    $dbname = "doberma";
+    $port = 3306;
 
     $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
     if($conn->connect_error){
-        header('Location:$BASE_URL/vacunas');
+        echo "error de conexion ";
+        //header("Location:$BASE_URL/vacunas");
         die("Connection failed: " . $conn->connect_error);
     }
 
@@ -18,13 +19,12 @@
     $sql = "INSERT INTO vacunas (nombre, descripcion) VALUES ('$nombre', '$descripcion')";
 
     if($conn->query($sql) === TRUE){
-        header('Location:$BASE_URL/vacunas');
+        header("Location: /");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
     $conn->close();
-    h
     
 ?>
