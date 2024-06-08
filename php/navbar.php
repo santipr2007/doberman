@@ -11,7 +11,8 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>">inicio</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/perros">registro del cachorro</a> </li>
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/clientes">cientes</a> </li>
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/vacunas">vacunas</a> </li>
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/croquetas">croquetas</a> </li>
