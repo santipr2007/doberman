@@ -1,4 +1,4 @@
-<?php define('BASE_URL', 'http://localhost/doberman'); ?>
+<?php define('BASE_URL', 'http://localhost:8080'); ?>
 <!doctype html>
 <!--
 	Fox by FreeHTML5.co
