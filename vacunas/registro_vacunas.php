@@ -3,26 +3,18 @@
 
 
 <form class="registro-clientes container">
-    <p>¿Que vacunas tiene tu mascota?</p>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label" for="defaultCheck1">
-        moquillo
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" >
-      <label class="form-check-label" for="defaultCheck2">
-        parbovirus
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" >
-      <label class="form-check-label" for="defaultCheck3s">
-        rabia
-      </label>
-    </div>
+<div class="form-group">
+    <label for="exampleInputname ">nombre</label>
+    <input type="text" class="form-control" id="nombre" placeholder="Name de vacuna" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">descripcion</label>
+    <input type="text" class="form-control" id="vacunas " aria-describedby="vacunas" placeholder="Enter descripcion">
+    <small id="emailHelp" class="form-text text-muted">ingresa la descripcion de las vacunas.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
 
 
 
