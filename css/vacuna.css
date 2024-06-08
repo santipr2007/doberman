@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right,#008cff,#ff0000);
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul ol {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul ol a {
+    text-decoration: none;
+    color: #fff;
+}
