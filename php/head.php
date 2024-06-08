@@ -1,4 +1,3 @@
-<?php define('BASE_URL', 'http://localhost/doberman'); ?>
 <!doctype html>
 <!--
 	Fox by FreeHTML5.co

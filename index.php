@@ -1,5 +1,8 @@
-<?php require './php/head.php' ?>
-<?php require './php/navbar.php' ?>  
+<?php
+  require_once './php/constants.php';
+  require './php/head.php';
+  require './php/navbar.php';  
+?>  
 <div class="container-fluid fh5co-network">
   <div class="container">
     <div class="row">
