@@ -29,7 +29,7 @@
             echo '<a href="create.php">Registrar croquetas</a>';
             echo '</td></tr>';
         }
-        $coon->close();
+        $conn->close();
     }
     
 ?>
