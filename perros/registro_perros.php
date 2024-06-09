@@ -32,10 +32,20 @@ function getClientes () {
 
 }
 
+function getVacunas() {
+    $conn = new mysqli(SERVER_NAME, USER_NAME, PASSWORD, DB_NAME);
+    $sql = "SELECT id, nombre FROM vacunas";
+    $result = $conn->query($sql);
+    $vacunas = [];
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            $vacunas[] = $row;
+        }
+    }
+    $conn->close();
+    return $vacunas;
+}
 ?>
-
-
-
 
 <form class="registro-clientes container mt-5 mb-5"
     action="<?php echo BASE_URL ?>/perros/alta.php" 
@@ -43,6 +53,22 @@ function getClientes () {
   <div class="form-group">
     <label for="exampleInputname ">Nombre del cachorro</label>
     <input type="text" class="form-control" id="nombre" placeholder="Nombre del perro" name="nombre_perro">
+  </div>
+  <div class="form-group">
+    <label for="dueno">Dueño</label>
+    <?php
+    $clientes = getClientes();
+    if(count($clientes) > 0) {
+        echo '<select class="form-control" id="dueno" name="dueno">';
+        foreach($clientes as $cliente) {
+            echo '<option value="'.$cliente['id'].'">'.$cliente['nombre'].'</option>';
+        }
+        echo '</select>';
+    } else {
+        echo '<p>No hay clientes registrados</p>';
+        echo '<a href="'.BASE_URL.'/clientes/registro_clientes.php">Click aquì para registrar clientes</a>';
+    }
+   ?>
   </div>
   <div class="form-group">
     <label for="exampleInputname ">edad</label>
@@ -71,20 +97,24 @@ function getClientes () {
   </div>
 
   <div class="form-group">
-    <label for="dueno">Dueño</label>
-    <?php
-    $clientes = getClientes();
-    if(count($clientes) > 0) {
-        echo '<select class="form-control" id="dueno" name="dueno">';
-        foreach($clientes as $cliente) {
-            echo '<option value="'.$cliente['id'].'">'.$cliente['nombre'].'</option>';
+    <label for="exampleInputname ">¿Qué vacunas tiene tu perro?</label>
+    <?php 
+      $vacunas = getVacunas();
+      if(count($vacunas) > 0) {
+        foreach($vacunas as $vacuna) {
+            echo '<div class="custom-control custom-checkbox">';
+            echo '<input type="checkbox" class="custom-control-input"
+                   id="v-'.$vacuna['id'].'" 
+                   name="vacunas[]" value="'.$vacuna['id'].'">';
+            echo '<label class="custom-control-label" 
+                  for="v-'.$vacuna['id'].'">'.$vacuna['nombre'].'</label>';
+            echo '</div>';
         }
-        echo '</select>';
-    } else {
-        echo '<p>No hay clientes registrados</p>';
-        echo '<a href="'.BASE_URL.'/clientes/registro_clientes.php">Click aquì para registrar clientes</a>';
-    }
-   ?>
+      } else {
+        echo '<p>No hay vacunas registradas</p>';
+        echo '<a href="'.BASE_URL.'/vacunas/registro_vacunas.php">Click aquì para registrar vacunas</a>';
+      }
+    ?>
   </div>
 
   <div class="form-group">

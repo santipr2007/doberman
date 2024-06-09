@@ -26,11 +26,29 @@ function get_perros(){
     
 }
 
+function getVacunas($idPerro) {
+    $conn = new mysqli(SERVER_NAME, USER_NAME, PASSWORD, DB_NAME);
+    $sql = "SELECT pv.id_vacunas, v.nombre FROM perros_vacunas pv
+    INNER JOIN vacunas v ON pv.id_vacunas = v.id
+    WHERE pv.id_perro = $idPerro";
+
+    $result = $conn->query($sql);
+    $vacunas = [];
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            $vacunas[] = $row;
+        }
+    }
+    $conn->close();
+    return $vacunas;
+
+}
+
 ?>
 <main class="container mt-5 mb-5">
         <h1>Vacunas registradas</h1>
         <!-- make a table with two columns Nombre and Descripción -->
-        <button><a href="registro_vacunas.php">Registrar vacuna</a></button>
+        <button class="btn btn-primary m-3"><a href="registro_perros.php">Registrar perro</a></button>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -41,6 +59,7 @@ function get_perros(){
                     <th>Dueño</th>
                     <th>Croquetas</th>
                     <th>Pedegree</th>
+                    <th>Vacunas</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -48,6 +67,7 @@ function get_perros(){
                 <?php $perritos = get_perros(); ?>
                 <?php if(count($perritos) > 0) { ?> 
                     <?php foreach($perritos as $perro) { ?>
+                            <?php $vacunas = getVacunas($perro['id']); ?>
                         <tr>
                             <td><?= $perro['id']; ?></td>
                             <td><?= $perro['nombre']; ?></td>
@@ -61,6 +81,8 @@ function get_perros(){
                             <td><?= $perro['dueno']; ?></td>
                             <td><?= $perro['croquetas']; ?></td>
                             <td><?= $perro['pedigree'] ? 'Sí' : 'No' ?></td>
+                            <td><?= implode(', ', array_column($vacunas, 'nombre')) ?></td>
+                            <!-- <td><?= json_encode($vacunas) ?></td> -->
                             <td>
                                 <a class="m-2" href="edit.php?id=<?php echo $perro['id']; ?>">Editar</a>
                                 <a class="m-2" href="baja.php?id=<?php echo $perro['id']; ?>">Eliminar</a>
