@@ -6,19 +6,30 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h4 class="wow bounceInUp text-white">PARA NUESTRA RED</h4>
-        <h2 class="wow bounceInRight text-white">DE MIEMBROS</h2>
+        <h4 class="wow bounceInUp text-white">INFORMACION</h4>
+        <h2 class="wow bounceInRight text-white">DEL DOBERMAN</h2>
         <hr />
-        <h5 class="wow bounceInLeft text-white">20% de Descuento en el Servicio de Baño para tu Doberman</h5>
         <div class="wow bounceInDown text-white">
-          ¡Porque tu Doberman merece lo mejor! 
-          Este verano, mantén a tu fiel amigo fresco, limpio y saludable 
-          con nuestro exclusivo servicio de baño profesional. 
-          Aprovecha nuestro 20% de descuento y consiente 
-          a tu compañero de cuatro patas con una experiencia 
-          de spa que lo hará sentir como nuevo.
+          
+          <h3 class="ache">Acerca del Doberman</h3>
+
+          Los Doberman, conocidos por su elegancia y fuerza,
+           son una raza de perros altamente inteligentes y
+            enérgicos. Originarios de Alemania, fueron criados
+            por primera vez en la década de 1890 por Karl
+            Friedrich Louis Dobermann, quien buscaba un perro
+            de protección personal que fuera tanto leal como valiente.
+
+          <h3 class="ache">Personalidad y Comportamiento</h3>
+        
+          Estos perros son increíblemente leales y protectores con sus
+          familias, lo que los convierte en excelentes perros guardianes.
+          Son también muy afectuosos y disfrutan de la compañía humana, 
+          desarrollando fuertes lazos con sus dueños. La energía y la
+          inteligencia de los Doberman requieren una estimulación mental
+          y física constante, lo que hace que el entrenamiento y el ejercicioregular sean esenciales.    
             
-          <h3>Nuestro Servicio Incluye:</h3>
+          <h3 class="ache">Nuestro Servicio Incluye:</h3>
           <ul>
             <li>
               Baño con productos especiales para la piel sensible de los Doberman.
@@ -56,7 +67,7 @@
               </li>
           </ul>
       </div>
-      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Learn More</a> </div>
+      <!-- <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Learn More</a> </div> -->
   </div>
 </div>
 <div class="container-fluid fh5co-content-box">
