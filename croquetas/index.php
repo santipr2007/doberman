@@ -33,10 +33,10 @@
     }
     
 ?>
-    <main class="container mt-5 mb-5">
+    <main class="container mt-5">
         <h1>Croquetas registradas</h1>
         <!-- make a table with two columns Nombre and Descripción -->
-        <button><a href="./registro_croquetas.php">Registrar croquetas</a></button>
+        <button class="btn btn-primary m-3"><a href="./registro_croquetas.php">Registrar croquetas</a></button>
         <table class="table table-striped">
             <thead>
                 <tr>

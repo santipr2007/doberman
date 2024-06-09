@@ -35,7 +35,7 @@
     <main class="container mt-5 mb-5">
         <h1>Clientes registrados</h1>
         <!-- make a table with two columns Nombre and Descripción -->
-        <button><a href="registro_clientes.php">Registrar cliente</a></button>
+        <button class="btn btn-primary m-3"><a href="registro_clientes.php">Registrar cliente</a></button>
         <table class="table table-striped">
             <thead>
                 <tr>

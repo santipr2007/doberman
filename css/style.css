@@ -47,6 +47,7 @@ a, a:hover {
   color: #ff8013;
 }
 
+
 .fh5co-banner-text-box {
   position: relative;
   max-height: 120px;
@@ -396,8 +397,12 @@ footer::before {
     margin-top: 0 !important;
   }
 }
+
 .btn.btn-primary{
   background-color: #df6700;
   border: none;
+}
 
+.btn.btn-primary  a{
+  color: white;
 }

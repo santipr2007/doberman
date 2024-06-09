@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
-        <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="./img/logodoberman.jpeg" alt="logo" height="70px"/></a>
+        <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="../img/logodoberman.jpeg" alt="logo" height="70px"/></a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
             dolor. Ae</p>
           <p>&copy; 2018 Foxpro. All rights reserved.<br> Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
