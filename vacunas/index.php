@@ -18,14 +18,13 @@
                 echo '<td>' . $row['nombre'] . '</td>';
                 echo '<td>' . $row['descripcion'] . '</td>';
                 echo '<td>';
-                echo '<a class="m-2" href="edit.php?id=' . $row['id'] . '">Editar</a>';
-                echo '<a class="m-2" href="delete.php?id=' . $row['id'] . '">Eliminar</a>';
+                echo '<a class="m-2" href="baja.php?id=' . $row['id'] . '">Eliminar</a>';
                 echo '</td>';
                 echo '</tr>';
             }
         } else {
             echo '<tr><td colspan="4">No hay vacunas registradas';
-            echo '<a href="create.php">Registrar vacuna</a>';
+            echo '<a href="create.php">Registsrar vacuna</a>';
             echo '</td></tr>';
         }
         $conn->close();
