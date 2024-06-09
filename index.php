@@ -6,11 +6,29 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h4 class="wow bounceInUp">FOR NETWORK</h4>
-        <h2 class="wow bounceInRight">MEMBERS</h2>
+        <h4 class="wow bounceInUp text-white">PARA NUESTRA RED</h4>
+        <h2 class="wow bounceInRight text-white">DE MIEMBROS</h2>
         <hr />
-        <h5 class="wow bounceInLeft">NETWORK SUMMER 2017</h5>
-        <p class="wow bounceInDown">The lowdown on Blood Flow Restriction training • FREE CEC/CPD • ​Let's compare ​Raw Vs Cooked • Building Ab, Core &amp; Pelvic strength • Get​ clients short-term wins from long-term goals • So you want to operate multiple clubs? + LOADS MORE</p>
+        <h5 class="wow bounceInLeft text-white">20% de Descuento en el Servicio de Baño para tu Doberman</h5>
+        <div class="wow bounceInDown text-white">
+          ¡Porque tu Doberman merece lo mejor! 
+          Este verano, mantén a tu fiel amigo fresco, limpio y saludable 
+          con nuestro exclusivo servicio de baño profesional. 
+          Aprovecha nuestro 20% de descuento y consiente 
+          a tu compañero de cuatro patas con una experiencia 
+          de spa que lo hará sentir como nuevo.
+            
+          <h3>Nuestro Servicio Incluye:</h3>
+          <ul>
+            <li>
+              Baño con productos especiales para la piel sensible de los Doberman.
+            </li>
+            <li>Cepillado y desenredado del pelaje.</li>
+            <li>Limpieza de orejas y corte de uñas.</li>
+            <li>Revisión y limpieza dental.</li>
+          </ul>
+          Visítanos hoy y dale a tu Doberman el tratamiento que se merece. ¡Este descuento especial solo estará disponible por tiempo limitado!
+        </div>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown"> <img src="./img/pexelscuadradas2.jpg" alt="gym" class="img-fluid" /> </figure>
@@ -21,9 +39,23 @@
 <div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src="images/about-us-bg.jpg">
   <div class="container">
     <div class="col-sm-6 offset-sm-6">
-      <h2 class="wow bounceInLeft" data-wow-delay=".25s">ABOUT US</h2>
+      <h2 class="wow bounceInLeft" data-wow-delay=".25s">SOBRE NOSOTROS</h2>
       <hr/>
-      <p class="wow bounceInRight" data-wow-delay=".25s">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge for their body and mind. Think: one-arm push-ups, pistols, pull-ups, handstands, hanging levers and the like! If you want toeither for </p>
+      <div class="wow bounceInRight" 
+            data-wow-delay=".25s">
+            <ul>
+              <li>
+                <b>Profesionales Expertos: </b>Nuestro equipo tiene años de experiencia en el cuidado de Dobermans.
+              </li>
+              <li>
+                <b>Productos de Alta Calidad:</b> Usamos solo productos seguros y de calidad para el cuidado de tu mascota.
+              </li>
+              <li>
+                <b>Ambiente amigable:</b> Un espacio cómodo y sin estrés para que tu perro disfrute al máximo.
+                Ambiente Amigable: 
+              </li>
+          </ul>
+      </div>
       <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Learn More</a> </div>
   </div>
 </div>
@@ -37,7 +69,6 @@
             <p>Great weekend, met lots of cool people and took away quite a bit. Thank you for the experience, and to you and your professional team for 
               making things seem </p>
           </div>
-          <img src="images/gym-girls.jpg" alt="girls in gym" class="img-fluid" /> </div>
       </div>
     </div>
     <div class="row trainers pl-0 pr-0">
@@ -47,7 +78,8 @@
         </div>
       </div>
       <div class="col-md-6 pr-5 pl-5">
-        <div class="card text-center wow bounceInLeft" data-wow-delay=".25s"> <img class="card-img-top rounded-circle img-fluid" src="./img/pexelsdobermancafe" alt="Card image">
+        <div class="card text-center wow bounceInLeft" data-wow-delay=".25s"> 
+          <img class="card-img-top rounded-circle img-fluid" src="./img/her_trainer.jpg" alt="Card image">
           <div class="card-body mb-5">
             <h4 class="card-title">JENIFERR</h4>
             <p class="card-text">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge</p>
@@ -55,7 +87,8 @@
         </div>
       </div>
       <div class="col-md-6 pl-5 pr-5">
-        <div class="card text-center wow bounceInRight" data-wow-delay=".25s"> <img class="card-img-top rounded-circle img-fluid" src="./img/dobermanrosa" alt="Card image">
+        <div class="card text-center wow bounceInRight" data-wow-delay=".25s"> 
+          <img class="card-img-top rounded-circle img-fluid" src="./img/entrenador1.jpg" alt="Card image">
           <div class="card-body mb-5">
             <h4 class="card-title">JHON</h4>
             <p class="card-text">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge</p>

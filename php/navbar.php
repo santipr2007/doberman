@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container"> 
         <!-- Brand --> 
-        <a class="navbar-brand mr-auto" href="#"><img src="<?= BASE_URL ?>/img/logodoberman.jpeg" alt="FoxPro" height="70px"/></a> 
+        <a class="navbar-brand mr-auto" href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>/img/logodoberman.jpeg" alt="FoxPro" height="70px"/></a> 
         
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
@@ -16,9 +16,6 @@
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/clientes">cientes</a> </li>
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/vacunas">vacunas</a> </li>
             <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL ?>/croquetas">croquetas</a> </li>
-          </ul>
-          <ul class="navbar-nav ml-5">
-            <li class="nav-item"> <a class="nav-link btn btn-danger" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
           </ul>
         </div>
       </div>
