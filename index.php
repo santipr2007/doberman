@@ -77,23 +77,23 @@
       <div class="col-md-7 pl-0">
         <div class="wow bounceInRight" data-wow-delay=".25s">
           <div class="card-img-overlay">
-            <p>Great weekend, met lots of cool people and took away quite a bit. Thank you for the experience, and to you and your professional team for 
-              making things seem </p>
+            <!-- <p>Great weekend, met lots of cool people and took away quite a bit. Thank you for the experience, and to you and your professional team for 
+              making things seem </p> -->
           </div>
       </div>
     </div>
     <div class="row trainers pl-0 pr-0">
       <div class="col-12 bg-50">
         <div class="quote-box2 wow bounceInDown" data-wow-delay=".25s">
-          <h2> TRAINERS </h2>
+          <h2> ENTRENADORES </h2>
         </div>
       </div>
       <div class="col-md-6 pr-5 pl-5">
         <div class="card text-center wow bounceInLeft" data-wow-delay=".25s"> 
           <img class="card-img-top rounded-circle img-fluid" src="./img/her_trainer.jpg" alt="Card image">
           <div class="card-body mb-5">
-            <h4 class="card-title">JENIFERR</h4>
-            <p class="card-text">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge</p>
+            <h4 class="card-title">LAURA</h4>
+            <p class="card-text">Laura Martínez es una destacada entrenadora de perros con más de 10 años de experiencia en el campo del adiestramiento canino. Apasionada por los animales desde una edad temprana, Laura ha dedicado su vida a entender y mejorar la comunicación entre los perros y sus dueños.</p>
           </div>
         </div>
       </div>
@@ -101,8 +101,8 @@
         <div class="card text-center wow bounceInRight" data-wow-delay=".25s"> 
           <img class="card-img-top rounded-circle img-fluid" src="./img/entrenador1.jpg" alt="Card image">
           <div class="card-body mb-5">
-            <h4 class="card-title">JHON</h4>
-            <p class="card-text">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge</p>
+            <h4 class="card-title">ALEJANDRO</h4>
+            <p class="card-text">Alejandro Pérez es un entrenador de perros altamente cualificado con más de una década de experiencia en el adiestramiento canino. Desde muy joven, Alejandro mostró un profundo interés por los animales, lo que lo llevó a dedicarse plenamente a mejorar la comunicación y la relación entre los perros y sus dueños.</p>
           </div>
         </div>
       </div>

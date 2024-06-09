@@ -204,7 +204,7 @@ a, a:hover {
   object-fit: cover;
 }
 .fh5co-content-box .trainers .card .card-body {
-  background: #ccc;
+  background: #ff8013;
   border-radius: 15px;
   padding: 30px 20px;
   margin-top: 30px;
@@ -213,8 +213,8 @@ a, a:hover {
 .fh5co-content-box .trainers .card .card-body::before {
   content: "";
   position: absolute;
-  border: 20px solid #ccc;
-  border-color: transparent transparent #ccc transparent;
+  border: 20px solid #ff8013;
+  border-color: transparent transparent #ff8013 transparent;
   margin-top: -70px;
   text-align: center;
   margin-left: -15px;
