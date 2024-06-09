@@ -28,6 +28,7 @@
             echo '<a href="create.php">Registrar vacuna</a>';
             echo '</td></tr>';
         }
+        $conn->close();
     }
     
 ?>
