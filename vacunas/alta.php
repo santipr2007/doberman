@@ -12,7 +12,7 @@
     $sql = "INSERT INTO vacunas (nombre, descripcion) VALUES ('$nombre', '$descripcion')";
 
     if($conn->query($sql) === TRUE){
-        header("Location: /vacunas");
+        header("Location:" .BASE_URL."/vacunas");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;

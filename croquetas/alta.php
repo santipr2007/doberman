@@ -9,14 +9,14 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $nombre = $_POST['nombre_cliente'];
-    $correo = $_POST ['correo'];
-    $telefono = $_POST ['telefono'];
+    $marca = $_POST['marca'];
+    $tipo = $_POST ['tipo'];
+    $precio = $_POST ['precio'];
 
-    $sql = "INSERT INTO cliente (nombre, correo, telefono) VALUES ('$nombre', '$correo', '$telefono')";
+    $sql = "INSERT INTO croquetas (marca, tipo, precio) VALUES ('$marca', '$tipo', '$precio')";
 
     if($conn->query($sql) === TRUE){
-        echo("Location:" .BASE_URL."/clientes");
+        header("Location:" .BASE_URL."/croquetas");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
