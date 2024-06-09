@@ -1,5 +1,4 @@
 <?php
-  require_once './php/constants.php';
   require './php/head.php';
   require './php/navbar.php';  
 ?>  

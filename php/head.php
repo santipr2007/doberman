@@ -1,3 +1,6 @@
+<?php 
+  require_once 'constants.php'; 
+?>
 <!doctype html>
 <!--
 	Fox by FreeHTML5.co

@@ -1,11 +1,7 @@
 <?php 
-    $servername = "localhost";
-    $username = "admin";
-    $password = "123456789";
-    $dbname = "doberma";
-    $port = 3306;
+    require '../php/constants.php';
 
-    $conn = new mysqli($servername, $username, $password, $dbname, $port);
+    $conn = new mysqli(SERVER_NAME, USER_NAME, PASSWORD, DB_NAME);
 
     if($conn->connect_error){
         echo "error de conexion ";
