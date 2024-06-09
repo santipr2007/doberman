@@ -1,8 +1,6 @@
 <?php 
     require '../php/constants.php';
-
-    $conn = new mysqli(SERVER_NAME, USER_NAME, PASSWORD, DB_PORT);
-
+    $conn = new mysqli(SERVER_NAME, USER_NAME, PASSWORD, DB_NAME, DB_PORT);
     if($conn->connect_error){
         echo "error de conexion ";
         die("Connection failed: " . $conn->connect_error);
@@ -14,7 +12,7 @@
     $sql = "INSERT INTO vacunas (nombre, descripcion) VALUES ('$nombre', '$descripcion')";
 
     if($conn->query($sql) === TRUE){
-        header("Location: /vacunas/registro_vacunas");
+        header("Location: /vacunas");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
