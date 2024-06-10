@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-md-3 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
         <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="../img/logodoberman.jpeg" alt="logo" height="70px"/></a>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-            dolor. Ae</p>
-          <p>&copy; 2018 Foxpro. All rights reserved.<br> Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+            dolor. Ae</p> -->
+          <!-- <p>&copy; 2018 Foxpro. All rights reserved.<br> Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p> -->
         </div>
       </div>
       <!--<div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
@@ -38,9 +38,9 @@
         </div>
       </div>-->
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
-        <h5>ADDRESS</h5>
+        <!-- <h5>ADDRESS</h5>
         <p>Lorem ipsum dolor sit 
-          amet, consectetuer adipiscing elit.</p>
+          amet, consectetuer adipiscing elit.</p> -->
         <h5>TELEFONO</h5>
         <p>7776348643</p>
         <h5>CORREO</h5>
