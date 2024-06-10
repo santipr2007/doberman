@@ -41,16 +41,16 @@
         <h5>ADDRESS</h5>
         <p>Lorem ipsum dolor sit 
           amet, consectetuer adipiscing elit.</p>
-        <h5>PHONE</h5>
-        <p>253232323232</p>
-        <h5>EMAIL</h5>
-        <p>email@example.com</p>
+        <h5>TELEFONO</h5>
+        <p>7776348643</p>
+        <h5>CORREO</h5>
+        <p>perezruizsantiago2007@gmail.com</p>
+
+        <h5>REDES SOCIALES</h5>
         <div class="social-links">
           <ul class="nav nav-item">
-            <li><a href="https://www.facebook.com/fh5co" class="btn btn-secondary mr-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
-            <li><a href="#"  class="btn btn-secondary mr-1 ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
-            <li><a href="#"  class="btn btn-secondary mr-1 ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
-            <li><a href="#"  class="btn btn-secondary ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
+            <li><a href="https://www.facebook.com" class="btn btn-secondary mr-1 mb-2"></a></li>facebook
+            <li><a href="https://www.instagram.com/santiago_.tr?igsh=MTBndXZhdjBxOG1xNw=="class="btn btn-secondary mr-1 ml-1 mb-2"></a></li>instagram
           </ul>
         </div>
       </div>

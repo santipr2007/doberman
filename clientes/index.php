@@ -28,6 +28,7 @@
             echo '<a href="create.php">Registrar cliente</a>';
             echo '</td></tr>';
         }
+        $conn->close();
     }
     
 ?>

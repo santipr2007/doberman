@@ -12,7 +12,7 @@
 
     if($conn->query($sql) === TRUE) {
         $conn->close();
-        header('Location: ' . BASE_URL . '/clientes');
+        header('Location: ' . BASE_URL . '/cliente');
     } else {
         $conn->close();
         echo 'Error: ' . $sql . '<br>' . $conn->error;

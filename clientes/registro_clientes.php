@@ -2,7 +2,7 @@
 <?php require '../php/navbar.php' ?> 
 
 
-<form class="registro-clientes container" action="<?php echo BASE_URL ?>/clientes/alta.php" method="post">
+<form class="registro-clientes container" action="<?php echo BASE_URL ?>/clientes" method="post">
 <div class="form-group">
     <label for="exampleInputname ">nombre</label>
     <input type="text" class="form-control" id="nombre" placeholder="nombre" name ="nombre_cliente">

@@ -16,7 +16,7 @@
     $sql = "INSERT INTO cliente (nombre, correo, telefono) VALUES ('$nombre', '$correo', '$telefono')";
 
     if($conn->query($sql) === TRUE){
-        echo("Location:" .BASE_URL."/clientes");
+        header('Location: '.BASE_URL.'/cliente');
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

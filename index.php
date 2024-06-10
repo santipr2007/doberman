@@ -107,28 +107,29 @@
         </div>
       </div>
     </div>
+    
     <div class="row gallery">
       <div class="col-md-4">
         <div class="card">
           <div class="card-body mb-4 wow bounceInLeft" data-wow-delay=".25s">
-            <h4 class="card-title">FILEX</h4>
-            <p class="card-text">I just wanted to sincerely thank you for the opportunity to represent Precision Nutrition and the US at such an amazing event. </p>
+            <h4 class="card-title">CARACTERITICAS FISICAS</h4>
+            <p class="card-text">Los Doberman son reconocidos por su aspecto atlético y musculoso, combinado con una apariencia noble y elegante. Tienen un pelaje corto y brillante que puede ser negro, marrón, azul o leonado, a menudo con marcas de color oxidado. Los ojos almendrados y la expresión alerta reflejan su aguda inteligencia y vigilancia.</p>
           </div>
           <img class="card-img-top img-fluid wow bounceInRight" data-wow-delay=".25s" src="./img/pexelsvertical3.jpg" alt="Card image"> </div>
       </div>
       <div class="col-md-4">
         <div class="card"> <img class="card-img-top img-fluid wow bounceInUp" data-wow-delay=".25s" src="./img/pexelsvertical4.jpg" alt="Card image">
           <div class="card-body mt-4 wow bounceInDown" data-wow-delay=".25s">
-            <h4 class="card-title">IGNITING</h4>
-            <p class="card-text">I just wanted to sincerely thank you for the opportunity to represent Precision Nutrition and the US at such an amazing event. </p>
+            <h4 class="card-title">ENTRENAMIENTO Y SOCIALIZACION</h4>
+            <p class="card-text">Gracias a su inteligencia, los Doberman responden muy bien al entrenamiento positivo y a las sesiones de socialización. Es crucial comenzar estos entrenamientos desde temprana edad para asegurar que crezcan siendo perros bien equilibrados y comportados. Con la orientación adecuada, los Doberman pueden sobresalir en una variedad de actividades, desde deportes caninos hasta trabajo de servicio. </p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
           <div class="card-body mb-4 wow bounceInRight" data-wow-delay=".25s">
-            <h4 class="card-title">PASSION</h4>
-            <p class="card-text">I just wanted to sincerely thank you for the opportunity to represent Precision Nutrition and the US at such an amazing event. </p>
+            <h4 class="card-title">PERSONALIDAD Y COMPORTAMIENTO</h4>
+            <p class="card-text">Estos perros son increíblemente leales y protectores con sus familias, lo que los convierte en excelentes perros guardianes. Son también muy afectuosos y disfrutan de la compañía humana, desarrollando fuertes lazos con sus dueños. La energía y la inteligencia de los Doberman requieren una estimulación mental y física constante, lo que hace que el entrenamiento y el ejercicio regular sean esenciales. </p>
           </div>
           <img class="card-img-top img-fluid wow bounceInLeft" data-wow-delay=".25s" src="./img/pexelsvertical2.jpg" alt="Card image"> </div>
       </div>
